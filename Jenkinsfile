@@ -10,7 +10,7 @@ pipeline {
                     extensions: [],
                     userRemoteConfigs: [[
                         url: 'https://github.com/saraa670/tocs-activity.git',
-                        credentialsId: 'github' // Replace with your credential ID
+                        
                     ]]
                 ])
             }
