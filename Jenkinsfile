@@ -28,7 +28,7 @@ pipeline {
                 sshagent(['web-server']) {
                     sh '''
                     # Transfer files to the Apache2 server
-                    scp -o StrictHostKeyChecking=no -r * ubuntu@13.60.223.61:/var/www/html/
+                    scp -o StrictHostKeyChecking=no -r * ubuntu@13.60.58.118:/var/www/html/
                     '''
                 }
             }
