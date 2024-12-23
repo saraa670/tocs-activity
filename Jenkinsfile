@@ -9,9 +9,9 @@ pipeline {
                     doGenerateSubmoduleConfigurations: false,
                     extensions: [],
                     userRemoteConfigs: [[
-                        url: 'https://github.com/saraa670/tocs-activity.git',
+                        url: 'https://github.com/saraa670/tocs-activity.git'
                         
-                    ]]
+                    ]
                 ])
             }
         }
